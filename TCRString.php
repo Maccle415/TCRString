@@ -98,7 +98,6 @@ class TCRString
                     return "No content";
                 }
 
-
                 $nextCharCount = $charCount + strlen($nextWord);
 
                 //if nextCharCount is more than numChars then do not add ending space
