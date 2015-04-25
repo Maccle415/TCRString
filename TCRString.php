@@ -245,10 +245,4 @@ class TCRString
         return is_numeric($string[$strLen - 1]);
     }
 }
-
-$s = new TCRString();
-$val = $s->shortenByWord("This is a test string in NetBeans", " ", 3);
-
-echo $val . "\n";
-
 ?>
